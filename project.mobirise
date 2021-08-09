@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Hostflows",
-    "currentPage": "index.html",
+    "currentPage": "publications.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -1520,7 +1520,8 @@
               "background-color": "@bg-value"
             },
             ".mbr-section-title": {
-              "text-align": "center"
+              "text-align": "center",
+              "color": "#2299aa"
             },
             ".mbr-text, .mbr-section-btn": {
               "color": "#232323",
