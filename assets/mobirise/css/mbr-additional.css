@@ -3396,6 +3396,40 @@ a {
 .cid-tEZpqJzEEI .social-row {
   color: #40b0bf;
 }
+.cid-tVupHitCoN {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  background-color: #ffffff;
+}
+.cid-tVupHitCoN .counter-container ul {
+  margin: 0;
+  list-style: none;
+  padding-left: 2.5rem;
+}
+.cid-tVupHitCoN .counter-container ul li {
+  margin-bottom: 1rem;
+  list-style: none;
+  position: relative;
+  padding-left: 1rem;
+}
+.cid-tVupHitCoN .counter-container ul li:before {
+  position: absolute;
+  left: -40px;
+  content: "";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-color: #2299aa;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-top: 5px;
+  content: "✓";
+}
+.cid-tVupHitCoN .mbr-section-title {
+  color: #2299aa;
+}
 .cid-sFCpTfPV45 {
   padding-top: 2rem;
   padding-bottom: 2rem;
