@@ -43,7 +43,7 @@
         "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
-    "uniqCompNum": 247,
+    "uniqCompNum": 249,
     "versionPublish": "5.6.13",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -1124,7 +1124,7 @@
           },
           "_name": "image2",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image2\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"4\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Description\" name=\"showDescription\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"row align-items-center\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/apjad89a5f2-hr-816x1009.jpg\" alt=\"Mobirise\">\n                    <p class=\"mbr-description mbr-fonts-style mt-2 align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showDescription\" data-app-selector=\".mbr-description\"><a href=\"https://iopscience.iop.org/article/10.3847/1538-4357/ad89a5\" class=\"text-primary\">Gutiérrez, Mattila, Lundqvist, et al., 2018, ApJ, 977:162</a><br></p>\n                </div>\n            </div>\n            <div class=\"col-12\" mbr-class=\"{'col-lg' : !fullWidth, 'col-lg-4' : fullWidth &amp;&amp; textWidth >= 6, 'col-lg-6' : fullWidth &amp;&amp; textWidth <= 5}\">\n                <div class=\"text-wrapper\">\n                    <h3 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\"><b>CSS 161010: A Luminous Fast Blue Optical Transient with Broad Blueshifted Hydrogen Lines</b></h3>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">We present ultraviolet, optical, and near-infrared photometric and optical spectroscopic observations of the luminous fast blue optical transient (LFBOT) CSS 161010:045834–081803 (CSS 161010). The transient was found in a low-redshift (z = 0.033) dwarf galaxy. The light curves of CSS 161010 are characterized by an extremely fast evolution and blue colors. The V-band light curve shows that CSS 161010 reaches an absolute peak of mag in 3.8 days from the start of the outburst. After maximum, CSS 161010 follows a power-law decline ∝t ‑2.8±0.1 in all optical bands. These photometric properties are comparable to those of well-observed LFBOTs such as AT 2018cow, AT 2020mrf, and AT 2020xnd. However, unlike these objects, the spectra of CSS 161010 show a remarkable transformation from a blue and featureless continuum to spectra dominated by very broad, entirely blueshifted hydrogen emission lines with velocities of up to 10% of the speed of light. The persistent blueshifted emission and the lack of any emission at the rest wavelength of CSS 161010 are unique features not seen in any transient before CSS 161010. The combined observational properties of CSS 161010 and its M * ∼ 108 M ⊙ dwarf galaxy host favor the tidal disruption of a star by an intermediate-mass black hole as its origin.<br></p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image2\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"4\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Description\" name=\"showDescription\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"row align-items-center\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/apjad89a5f2-hr-816x1009.jpg\" alt=\"Mobirise\">\n                    <p class=\"mbr-description mbr-fonts-style mt-2 align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showDescription\" data-app-selector=\".mbr-description\"><a href=\"https://iopscience.iop.org/article/10.3847/1538-4357/ad89a5\" class=\"text-primary\">Gutiérrez, Mattila, Lundqvist, et al., 2025, ApJ, 977:162</a><br></p>\n                </div>\n            </div>\n            <div class=\"col-12\" mbr-class=\"{'col-lg' : !fullWidth, 'col-lg-4' : fullWidth &amp;&amp; textWidth >= 6, 'col-lg-6' : fullWidth &amp;&amp; textWidth <= 5}\">\n                <div class=\"text-wrapper\">\n                    <h3 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\"><b>CSS 161010: A Luminous Fast Blue Optical Transient with Broad Blueshifted Hydrogen Lines</b></h3>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">We present ultraviolet, optical, and near-infrared photometric and optical spectroscopic observations of the luminous fast blue optical transient (LFBOT) CSS 161010:045834–081803 (CSS 161010). The transient was found in a low-redshift (z = 0.033) dwarf galaxy. The light curves of CSS 161010 are characterized by an extremely fast evolution and blue colors. The V-band light curve shows that CSS 161010 reaches an absolute peak of mag in 3.8 days from the start of the outburst. After maximum, CSS 161010 follows a power-law decline ∝t ‑2.8±0.1 in all optical bands. These photometric properties are comparable to those of well-observed LFBOTs such as AT 2018cow, AT 2020mrf, and AT 2020xnd. However, unlike these objects, the spectra of CSS 161010 show a remarkable transformation from a blue and featureless continuum to spectra dominated by very broad, entirely blueshifted hydrogen emission lines with velocities of up to 10% of the speed of light. The persistent blueshifted emission and the lack of any emission at the rest wavelength of CSS 161010 are unique features not seen in any transient before CSS 161010. The combined observational properties of CSS 161010 and its M * ∼ 108 M ⊙ dwarf galaxy host favor the tidal disruption of a star by an intermediate-mass black hole as its origin.<br></p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "image2-6n",
           "_isUserblock": true,
           "_cid": "uYiWVhe6lz",
@@ -2779,7 +2779,127 @@
           },
           "_name": "content9",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content9\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"11\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Square Counters\" name=\"squareCounters\" condition=\"stylizedCounters\">\n        <input type=\"color\" name=\"iconColor\" title=\"Color\" value=\"#2299aa\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"counter-container col-md-12 col-lg-{{textWidth}}\">\n                <h4 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\">2023</h4>\n                <div class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                    <ol>\n                        <li><i>An updated measurement of the Hubble constant from near-infrared observations of Type Ia supernovae, </i>Galbany et al., A&amp;A, 679, A95</li></ol><ol>\n                    </ol>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content9\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"11\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Square Counters\" name=\"squareCounters\" condition=\"stylizedCounters\">\n        <input type=\"color\" name=\"iconColor\" title=\"Color\" value=\"#2299aa\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"counter-container col-md-12 col-lg-{{textWidth}}\">\n                <h4 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\">2025</h4>\n                <div class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                    <ol>\n                        <li><i>Analyzing type Ia supernovae near-infrared light curves with Principal Component Analysis, <b>Müller-Bravo</b>, <b>Galbany</b>, Stritzinger, et al., A&amp;A, accepted</i></li><li><i>ZTF SN Ia DR2 follow-up: Exploring the origin of the Type Ia supernova host galaxy step through Si II velocities, Burgaz, Maguire, <b>Galbany</b>, et al., A&amp;A, accepted</i></li><li><i>Statistical Analysis of Early Spectra in Type II and IIb Supernovae, <b>González-Bañuleos</b>, <b>Gutiérrez</b>, <b>Galbany</b>, et al., A&amp;A, accepted</i></li><li><i>New X-ray supernova remnants in NGC 7793, <b>Kopsacheili</b>, Anastasopoulou, Rea, et al., A&amp;A, 701:A60</i></li><li><i>SN 2022jli modeled with a 56Ni double layer and a magnetar, Orellana, Bersten, <b>Gutiérrez</b>, A&amp;A, 700:L17</i></li><li><i>Rapid follow-up observations of infant supernovae with the Gran Telescopio Canarias, <b>Galbany</b>, <b>Gutiérrez</b>, <b>Piscarreta</b>, et al., JCAP, 8:53</i></li><li><i>Narrow absorption lines from intervening material in supernovae: II. Galaxy properties, González-Gaitán, <b>Gutiérrez</b>, Martins, A&amp;A, 700:119</i></li></ol><ol>\n                    </ol>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content9-6w",
+          "_isUserblock": true,
+          "_cid": "uYpmeSbxuz",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".counter-container": {
+              "ol": {
+                "margin-bottom": "0",
+                "li": {
+                  "margin-bottom": "1rem"
+                },
+                "& when (@stylizedCounters)": {
+                  "counter-reset": "myCounter",
+                  "li": {
+                    "list-style": "none",
+                    "padding-left": "1rem",
+                    "position": "relative",
+                    "&:before": {
+                      "position": "absolute",
+                      "left": "-40px",
+                      "margin-top": "5px",
+                      "counter-increment": "myCounter",
+                      "content": "counter(myCounter)",
+                      "line-height": "40px",
+                      "transition": "all .2s",
+                      "color": "contrast(@iconColor)",
+                      "background": "@iconColor",
+                      "width": "40px",
+                      "height": "40px",
+                      "border-radius": "50%",
+                      "display": "flex",
+                      "align-items": "center",
+                      "justify-content": "center",
+                      "& when (@squareCounters)": {
+                        "border-radius": "0"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#40b0bf"
+            },
+            ".mbr-text": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content9",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content9\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"11\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Square Counters\" name=\"squareCounters\" condition=\"stylizedCounters\">\n        <input type=\"color\" name=\"iconColor\" title=\"Color\" value=\"#2299aa\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"counter-container col-md-12 col-lg-{{textWidth}}\">\n                <h4 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\">2024</h4>\n                <div class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                    <ol>\n                        <li><i>CSS 161010: A Luminous Fast Blue Optical Transient with Broad Blueshifted Hydrogen Lines, <b>Gutiérrez</b>, Mattila, Lundqvist, et al., ApJ, 977:162</i></li><li><i>Bidimensional Exploration of the warm-Temperature Ionised gaS (BETIS): II. Revisiting the ionisation mechanism of the extraplanar diffuse ionised gas, <b>González-Díaz</b>, Rosales-Ortega, <b>Galbany</b>, A&amp;A, 691:25</i></li><li><i style=\"font-size: 1.1rem;\">Narrow absorption lines from intervening material in supernovae. I. Measurements and temporal evolution, González-Gaitán, <b>Gutiérrez</b>, Anderson, et al., A&amp;A, 687:108</i><br></li><li><i>Bidimensional Exploration of the warm-Temperature Ionised gaS (BETIS). I. Showcase sample and first results, <b>González-Díaz</b>, Rosales-Ortega, <b>Galbany</b>, et al., A&amp;A, 687:A20</i></li><li><i>A sequence of Type Ib, IIb, II-L, and II-P supernovae from binary-star progenitors with varying initial separations, Dessart, <b>Gutiérrez</b>, Ercolino, et al., A&amp;A, 685:A169</i></li><li><i>Supernova remnant properties and luminosity functions in NGC 7793 using MUSE IFS, <b>Kopsacheili</b>, <b>Jiménez-Palau</b>, <b>Galbany</b>, et al., MNRAS, 530:1078</i></li><li><i>Tracing back the birth environments of Type Ia supernova progenitor stars: a pilot study based on 44 early-type host galaxies, Kim, <b>Galbany</b>, Hook, Kang, MNRAS, 529:3806</i></li><li><i>Supernova environments in J-PLUS. Normalized cumulative-rank distributions and stellar-population synthesis combining narrow- and broad-band filters, <b>González-Díaz</b>, <b>Galbany</b>, Kangas, et al., A&amp;A, 684:A104</i></li><li><i>Recovering Lost Light: Discovery of Supernova Remnants with Integral Field Spectroscopy, Martínez-Rodríguez, <b>Galbany</b>, Badenes, et al., ApJ, 963:125</i></li></ol><ol>\n                    </ol>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content9-6v",
+          "_isUserblock": true,
+          "_cid": "uYplIXGBbE",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".counter-container": {
+              "ol": {
+                "margin-bottom": "0",
+                "li": {
+                  "margin-bottom": "1rem"
+                },
+                "& when (@stylizedCounters)": {
+                  "counter-reset": "myCounter",
+                  "li": {
+                    "list-style": "none",
+                    "padding-left": "1rem",
+                    "position": "relative",
+                    "&:before": {
+                      "position": "absolute",
+                      "left": "-40px",
+                      "margin-top": "5px",
+                      "counter-increment": "myCounter",
+                      "content": "counter(myCounter)",
+                      "line-height": "40px",
+                      "transition": "all .2s",
+                      "color": "contrast(@iconColor)",
+                      "background": "@iconColor",
+                      "width": "40px",
+                      "height": "40px",
+                      "border-radius": "50%",
+                      "display": "flex",
+                      "align-items": "center",
+                      "justify-content": "center",
+                      "& when (@squareCounters)": {
+                        "border-radius": "0"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#40b0bf"
+            },
+            ".mbr-text": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content9",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content9\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"11\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Square Counters\" name=\"squareCounters\" condition=\"stylizedCounters\">\n        <input type=\"color\" name=\"iconColor\" title=\"Color\" value=\"#2299aa\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"counter-container col-md-12 col-lg-{{textWidth}}\">\n                <h4 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\">2023</h4>\n                <div class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                    <ol>\n                        <li><i style=\"font-size: 1.1rem;\">The Calar Alto Legacy Integral Field Area survey: extended and remastered data release, Sánchez, <b>Galbany</b>, Walcher, et al., MNRAS, 526:5555</i><br></li><li><i>An updated measurement of the Hubble constant from near-infrared observations of Type Ia supernovae, </i><b>Galbany</b>, de Jaeger, Riess, et al., A&amp;A, 679, A95</li><li>Environmental dependence of Type IIn supernova properties, Moriya, <b>Galbany</b>, <b>Jiménez-Palau</b>, et al., A&amp;A, 677:A20</li></ol><ol>\n                    </ol>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "content9-4g",
           "_isUserblock": true,
           "_cid": "tVvvKivaqY",
@@ -2839,7 +2959,7 @@
           },
           "_name": "content9",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content9\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"11\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Square Counters\" name=\"squareCounters\" condition=\"stylizedCounters\">\n        <input type=\"color\" name=\"iconColor\" title=\"Color\" value=\"#2299aa\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"counter-container col-md-12 col-lg-{{textWidth}}\">\n                <h4 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\">2022</h4>\n                <div class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                    <ol>\n                        <li><i style=\"font-size: 1.1rem;\">HostPhot: global and local photometry of galaxies hosting supernovae or other transients, </i><span style=\"font-size: 1.1rem;\">Müller-Bravo and Galbany, JOSS 7(76):4508</span><br></li><li><i>Testing the homogeneity of Type Ia Supernovae in the Near-infrared for accurate distance estimations</i>, Müller-Bravo et al., A&amp;A, 665, A123</li><li><i>A 5% measurement of the Hubble constant from Type II supernovae</i>, de Jaeger et al., MNRAS, 514:4620</li></ol><ol>\n                    </ol>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content9\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"11\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Square Counters\" name=\"squareCounters\" condition=\"stylizedCounters\">\n        <input type=\"color\" name=\"iconColor\" title=\"Color\" value=\"#2299aa\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"counter-container col-md-12 col-lg-{{textWidth}}\">\n                <h4 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\">2022</h4>\n                <div class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                    <ol>\n                        <li><i style=\"font-size: 1.1rem;\">A 5% measurement of the Hubble constant from Type II supernovae</i><span style=\"font-size: 1.1rem;\">, de Jaeger, <b>Galbany</b>, Riess, et al., MNRAS, 514:4620</span><br></li><li>Testing the homogeneity of Type Ia Supernovae in the Near-infrared for accurate distance estimations, <b>Müller-Bravo</b>, <b>Galbany</b>, Karamehmetoglu, et al., A&amp;A, 665, A123</li><li>HostPhot: global and local photometry of galaxies hosting supernovae or other transients, <b>Müller-Bravo</b> and <b>Galbany</b>, JOSS 7(76):4508</li><li>Aperture-corrected spectroscopic type Ia supernova host galaxy properties, <b>Galbany</b>, Smith, Duarte Puertas, et al., A&amp;A, 659:A89</li></ol><ol>\n                    </ol>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "content9-3h",
           "_isUserblock": true,
           "_cid": "sF9aXHOWNQ",
